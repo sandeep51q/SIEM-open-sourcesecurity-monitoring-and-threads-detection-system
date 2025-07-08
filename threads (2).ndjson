@@ -1,0 +1,12 @@
+{
+  "attributes": {
+    "title": "Failed Login Attempts",
+    "visState": "{\"title\":\"Failed Login Attempts\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\"}],\"filters\":[{\"query\":{\"match\":{\"event.code\":\"4625\"}},\"meta\":{\"disabled\":false}}]}",
+    "uiStateJSON": "{}",
+    "description": "",
+    "version": 1,
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"index\":\"winlogbeat-*\",\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+    }
+  }
+}
